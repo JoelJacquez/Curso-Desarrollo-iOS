@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFE824CE165D7C5E0045C619 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE824CD165D7C5E0045C619 /* UIKit.framework */; };
+		AFE824D0165D7C5E0045C619 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE824CF165D7C5E0045C619 /* Foundation.framework */; };
+		AFE824D2165D7C5E0045C619 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE824D1165D7C5E0045C619 /* CoreGraphics.framework */; };
+		AFE824D8165D7C5E0045C619 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFE824D6165D7C5E0045C619 /* InfoPlist.strings */; };
+		AFE824DA165D7C5E0045C619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE824D9165D7C5E0045C619 /* main.m */; };
+		AFE824DE165D7C5E0045C619 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE824DD165D7C5E0045C619 /* AppDelegate.m */; };
+		AFE824E0165D7C5E0045C619 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE824DF165D7C5E0045C619 /* Default.png */; };
+		AFE824E2165D7C5E0045C619 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE824E1165D7C5E0045C619 /* Default@2x.png */; };
+		AFE824E4165D7C5E0045C619 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE824E3165D7C5E0045C619 /* Default-568h@2x.png */; };
+		AFE824E7165D7C5E0045C619 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE824E5165D7C5E0045C619 /* MainStoryboard.storyboard */; };
+		AFE824EA165D7C5E0045C619 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE824E9165D7C5E0045C619 /* ViewController.m */; };
+		AFE824F2165D7C5E0045C619 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE824F1165D7C5E0045C619 /* SenTestingKit.framework */; };
+		AFE824F3165D7C5E0045C619 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE824CD165D7C5E0045C619 /* UIKit.framework */; };
+		AFE824F4165D7C5E0045C619 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE824CF165D7C5E0045C619 /* Foundation.framework */; };
+		AFE824FC165D7C5E0045C619 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFE824FA165D7C5E0045C619 /* InfoPlist.strings */; };
+		AFE824FF165D7C5E0045C619 /* HolaRQPortilloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE824FE165D7C5E0045C619 /* HolaRQPortilloTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFE824F5165D7C5E0045C619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFE824C0165D7C5E0045C619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFE824C8165D7C5E0045C619;
+			remoteInfo = HolaRQPortillo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFE824C9165D7C5E0045C619 /* HolaRQPortillo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolaRQPortillo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE824CD165D7C5E0045C619 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFE824CF165D7C5E0045C619 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFE824D1165D7C5E0045C619 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFE824D5165D7C5E0045C619 /* HolaRQPortillo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HolaRQPortillo-Info.plist"; sourceTree = "<group>"; };
+		AFE824D7165D7C5E0045C619 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFE824D9165D7C5E0045C619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFE824DB165D7C5E0045C619 /* HolaRQPortillo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HolaRQPortillo-Prefix.pch"; sourceTree = "<group>"; };
+		AFE824DC165D7C5E0045C619 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFE824DD165D7C5E0045C619 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFE824DF165D7C5E0045C619 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AFE824E1165D7C5E0045C619 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AFE824E3165D7C5E0045C619 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AFE824E6165D7C5E0045C619 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AFE824E8165D7C5E0045C619 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFE824E9165D7C5E0045C619 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFE824F0165D7C5E0045C619 /* HolaRQPortilloTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolaRQPortilloTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE824F1165D7C5E0045C619 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AFE824F9165D7C5E0045C619 /* HolaRQPortilloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HolaRQPortilloTests-Info.plist"; sourceTree = "<group>"; };
+		AFE824FB165D7C5E0045C619 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFE824FD165D7C5E0045C619 /* HolaRQPortilloTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HolaRQPortilloTests.h; sourceTree = "<group>"; };
+		AFE824FE165D7C5E0045C619 /* HolaRQPortilloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HolaRQPortilloTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFE824C6165D7C5E0045C619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE824CE165D7C5E0045C619 /* UIKit.framework in Frameworks */,
+				AFE824D0165D7C5E0045C619 /* Foundation.framework in Frameworks */,
+				AFE824D2165D7C5E0045C619 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE824EC165D7C5E0045C619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE824F2165D7C5E0045C619 /* SenTestingKit.framework in Frameworks */,
+				AFE824F3165D7C5E0045C619 /* UIKit.framework in Frameworks */,
+				AFE824F4165D7C5E0045C619 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFE824BE165D7C5E0045C619 = {
+			isa = PBXGroup;
+			children = (
+				AFE824D3165D7C5E0045C619 /* HolaRQPortillo */,
+				AFE824F7165D7C5E0045C619 /* HolaRQPortilloTests */,
+				AFE824CC165D7C5E0045C619 /* Frameworks */,
+				AFE824CA165D7C5E0045C619 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFE824CA165D7C5E0045C619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFE824C9165D7C5E0045C619 /* HolaRQPortillo.app */,
+				AFE824F0165D7C5E0045C619 /* HolaRQPortilloTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFE824CC165D7C5E0045C619 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFE824CD165D7C5E0045C619 /* UIKit.framework */,
+				AFE824CF165D7C5E0045C619 /* Foundation.framework */,
+				AFE824D1165D7C5E0045C619 /* CoreGraphics.framework */,
+				AFE824F1165D7C5E0045C619 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFE824D3165D7C5E0045C619 /* HolaRQPortillo */ = {
+			isa = PBXGroup;
+			children = (
+				AFE824DC165D7C5E0045C619 /* AppDelegate.h */,
+				AFE824DD165D7C5E0045C619 /* AppDelegate.m */,
+				AFE824E5165D7C5E0045C619 /* MainStoryboard.storyboard */,
+				AFE824E8165D7C5E0045C619 /* ViewController.h */,
+				AFE824E9165D7C5E0045C619 /* ViewController.m */,
+				AFE824D4165D7C5E0045C619 /* Supporting Files */,
+			);
+			path = HolaRQPortillo;
+			sourceTree = "<group>";
+		};
+		AFE824D4165D7C5E0045C619 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFE824D5165D7C5E0045C619 /* HolaRQPortillo-Info.plist */,
+				AFE824D6165D7C5E0045C619 /* InfoPlist.strings */,
+				AFE824D9165D7C5E0045C619 /* main.m */,
+				AFE824DB165D7C5E0045C619 /* HolaRQPortillo-Prefix.pch */,
+				AFE824DF165D7C5E0045C619 /* Default.png */,
+				AFE824E1165D7C5E0045C619 /* Default@2x.png */,
+				AFE824E3165D7C5E0045C619 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFE824F7165D7C5E0045C619 /* HolaRQPortilloTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFE824FD165D7C5E0045C619 /* HolaRQPortilloTests.h */,
+				AFE824FE165D7C5E0045C619 /* HolaRQPortilloTests.m */,
+				AFE824F8165D7C5E0045C619 /* Supporting Files */,
+			);
+			path = HolaRQPortilloTests;
+			sourceTree = "<group>";
+		};
+		AFE824F8165D7C5E0045C619 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFE824F9165D7C5E0045C619 /* HolaRQPortilloTests-Info.plist */,
+				AFE824FA165D7C5E0045C619 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFE824C8165D7C5E0045C619 /* HolaRQPortillo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE82502165D7C5E0045C619 /* Build configuration list for PBXNativeTarget "HolaRQPortillo" */;
+			buildPhases = (
+				AFE824C5165D7C5E0045C619 /* Sources */,
+				AFE824C6165D7C5E0045C619 /* Frameworks */,
+				AFE824C7165D7C5E0045C619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolaRQPortillo;
+			productName = HolaRQPortillo;
+			productReference = AFE824C9165D7C5E0045C619 /* HolaRQPortillo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFE824EF165D7C5E0045C619 /* HolaRQPortilloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE82505165D7C5E0045C619 /* Build configuration list for PBXNativeTarget "HolaRQPortilloTests" */;
+			buildPhases = (
+				AFE824EB165D7C5E0045C619 /* Sources */,
+				AFE824EC165D7C5E0045C619 /* Frameworks */,
+				AFE824ED165D7C5E0045C619 /* Resources */,
+				AFE824EE165D7C5E0045C619 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFE824F6165D7C5E0045C619 /* PBXTargetDependency */,
+			);
+			name = HolaRQPortilloTests;
+			productName = HolaRQPortilloTests;
+			productReference = AFE824F0165D7C5E0045C619 /* HolaRQPortilloTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFE824C0165D7C5E0045C619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "IOS 5";
+			};
+			buildConfigurationList = AFE824C3165D7C5E0045C619 /* Build configuration list for PBXProject "HolaRQPortillo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFE824BE165D7C5E0045C619;
+			productRefGroup = AFE824CA165D7C5E0045C619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFE824C8165D7C5E0045C619 /* HolaRQPortillo */,
+				AFE824EF165D7C5E0045C619 /* HolaRQPortilloTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFE824C7165D7C5E0045C619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE824D8165D7C5E0045C619 /* InfoPlist.strings in Resources */,
+				AFE824E0165D7C5E0045C619 /* Default.png in Resources */,
+				AFE824E2165D7C5E0045C619 /* Default@2x.png in Resources */,
+				AFE824E4165D7C5E0045C619 /* Default-568h@2x.png in Resources */,
+				AFE824E7165D7C5E0045C619 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE824ED165D7C5E0045C619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE824FC165D7C5E0045C619 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AFE824EE165D7C5E0045C619 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFE824C5165D7C5E0045C619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE824DA165D7C5E0045C619 /* main.m in Sources */,
+				AFE824DE165D7C5E0045C619 /* AppDelegate.m in Sources */,
+				AFE824EA165D7C5E0045C619 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE824EB165D7C5E0045C619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE824FF165D7C5E0045C619 /* HolaRQPortilloTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFE824F6165D7C5E0045C619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFE824C8165D7C5E0045C619 /* HolaRQPortillo */;
+			targetProxy = AFE824F5165D7C5E0045C619 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFE824D6165D7C5E0045C619 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE824D7165D7C5E0045C619 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFE824E5165D7C5E0045C619 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE824E6165D7C5E0045C619 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		AFE824FA165D7C5E0045C619 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE824FB165D7C5E0045C619 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFE82500165D7C5E0045C619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFE82501165D7C5E0045C619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFE82503165D7C5E0045C619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HolaRQPortillo/HolaRQPortillo-Prefix.pch";
+				INFOPLIST_FILE = "HolaRQPortillo/HolaRQPortillo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFE82504165D7C5E0045C619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HolaRQPortillo/HolaRQPortillo-Prefix.pch";
+				INFOPLIST_FILE = "HolaRQPortillo/HolaRQPortillo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AFE82506165D7C5E0045C619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HolaRQPortillo.app/HolaRQPortillo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HolaRQPortillo/HolaRQPortillo-Prefix.pch";
+				INFOPLIST_FILE = "HolaRQPortilloTests/HolaRQPortilloTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AFE82507165D7C5E0045C619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HolaRQPortillo.app/HolaRQPortillo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HolaRQPortillo/HolaRQPortillo-Prefix.pch";
+				INFOPLIST_FILE = "HolaRQPortilloTests/HolaRQPortilloTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFE824C3165D7C5E0045C619 /* Build configuration list for PBXProject "HolaRQPortillo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE82500165D7C5E0045C619 /* Debug */,
+				AFE82501165D7C5E0045C619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE82502165D7C5E0045C619 /* Build configuration list for PBXNativeTarget "HolaRQPortillo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE82503165D7C5E0045C619 /* Debug */,
+				AFE82504165D7C5E0045C619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFE82505165D7C5E0045C619 /* Build configuration list for PBXNativeTarget "HolaRQPortilloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE82506165D7C5E0045C619 /* Debug */,
+				AFE82507165D7C5E0045C619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFE824C0165D7C5E0045C619 /* Project object */;
+}
