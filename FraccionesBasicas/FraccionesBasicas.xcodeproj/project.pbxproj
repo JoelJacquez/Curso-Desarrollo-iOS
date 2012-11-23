@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFE25FC2165D8E540098D745 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE25FC1165D8E540098D745 /* UIKit.framework */; };
+		AFE25FC4165D8E540098D745 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE25FC3165D8E540098D745 /* Foundation.framework */; };
+		AFE25FC6165D8E540098D745 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE25FC5165D8E540098D745 /* CoreGraphics.framework */; };
+		AFE25FC8165D8E540098D745 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE25FC7165D8E540098D745 /* CoreData.framework */; };
+		AFE25FCE165D8E540098D745 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFE25FCC165D8E540098D745 /* InfoPlist.strings */; };
+		AFE25FD0165D8E540098D745 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE25FCF165D8E540098D745 /* main.m */; };
+		AFE25FD4165D8E540098D745 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE25FD3165D8E540098D745 /* AppDelegate.m */; };
+		AFE25FD6165D8E540098D745 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE25FD5165D8E540098D745 /* Default.png */; };
+		AFE25FD8165D8E540098D745 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE25FD7165D8E540098D745 /* Default@2x.png */; };
+		AFE25FDA165D8E540098D745 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFE25FD9165D8E540098D745 /* Default-568h@2x.png */; };
+		AFE25FDD165D8E540098D745 /* FraccionesBasicas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFE25FDB165D8E540098D745 /* FraccionesBasicas.xcdatamodeld */; };
+		AFE25FE5165D8E550098D745 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE25FE4165D8E550098D745 /* SenTestingKit.framework */; };
+		AFE25FE6165D8E550098D745 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE25FC1165D8E540098D745 /* UIKit.framework */; };
+		AFE25FE7165D8E550098D745 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE25FC3165D8E540098D745 /* Foundation.framework */; };
+		AFE25FE8165D8E550098D745 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE25FC7165D8E540098D745 /* CoreData.framework */; };
+		AFE25FF0165D8E550098D745 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFE25FEE165D8E550098D745 /* InfoPlist.strings */; };
+		AFE25FF3165D8E550098D745 /* FraccionesBasicasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE25FF2165D8E550098D745 /* FraccionesBasicasTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFE25FE9165D8E550098D745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFE25FB4165D8E540098D745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFE25FBC165D8E540098D745;
+			remoteInfo = FraccionesBasicas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFE25FBD165D8E540098D745 /* FraccionesBasicas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FraccionesBasicas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE25FC1165D8E540098D745 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFE25FC3165D8E540098D745 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFE25FC5165D8E540098D745 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFE25FC7165D8E540098D745 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AFE25FCB165D8E540098D745 /* FraccionesBasicas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FraccionesBasicas-Info.plist"; sourceTree = "<group>"; };
+		AFE25FCD165D8E540098D745 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFE25FCF165D8E540098D745 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFE25FD1165D8E540098D745 /* FraccionesBasicas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FraccionesBasicas-Prefix.pch"; sourceTree = "<group>"; };
+		AFE25FD2165D8E540098D745 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFE25FD3165D8E540098D745 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFE25FD5165D8E540098D745 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AFE25FD7165D8E540098D745 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AFE25FD9165D8E540098D745 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AFE25FDC165D8E540098D745 /* FraccionesBasicas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FraccionesBasicas.xcdatamodel; sourceTree = "<group>"; };
+		AFE25FE3165D8E550098D745 /* FraccionesBasicasTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FraccionesBasicasTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE25FE4165D8E550098D745 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AFE25FED165D8E550098D745 /* FraccionesBasicasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FraccionesBasicasTests-Info.plist"; sourceTree = "<group>"; };
+		AFE25FEF165D8E550098D745 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFE25FF1165D8E550098D745 /* FraccionesBasicasTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FraccionesBasicasTests.h; sourceTree = "<group>"; };
+		AFE25FF2165D8E550098D745 /* FraccionesBasicasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FraccionesBasicasTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFE25FBA165D8E540098D745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE25FC2165D8E540098D745 /* UIKit.framework in Frameworks */,
+				AFE25FC4165D8E540098D745 /* Foundation.framework in Frameworks */,
+				AFE25FC6165D8E540098D745 /* CoreGraphics.framework in Frameworks */,
+				AFE25FC8165D8E540098D745 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE25FDF165D8E550098D745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE25FE5165D8E550098D745 /* SenTestingKit.framework in Frameworks */,
+				AFE25FE6165D8E550098D745 /* UIKit.framework in Frameworks */,
+				AFE25FE7165D8E550098D745 /* Foundation.framework in Frameworks */,
+				AFE25FE8165D8E550098D745 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFE25FB2165D8E540098D745 = {
+			isa = PBXGroup;
+			children = (
+				AFE25FC9165D8E540098D745 /* FraccionesBasicas */,
+				AFE25FEB165D8E550098D745 /* FraccionesBasicasTests */,
+				AFE25FC0165D8E540098D745 /* Frameworks */,
+				AFE25FBE165D8E540098D745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFE25FBE165D8E540098D745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFE25FBD165D8E540098D745 /* FraccionesBasicas.app */,
+				AFE25FE3165D8E550098D745 /* FraccionesBasicasTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFE25FC0165D8E540098D745 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFE25FC1165D8E540098D745 /* UIKit.framework */,
+				AFE25FC3165D8E540098D745 /* Foundation.framework */,
+				AFE25FC5165D8E540098D745 /* CoreGraphics.framework */,
+				AFE25FC7165D8E540098D745 /* CoreData.framework */,
+				AFE25FE4165D8E550098D745 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFE25FC9165D8E540098D745 /* FraccionesBasicas */ = {
+			isa = PBXGroup;
+			children = (
+				AFE25FD2165D8E540098D745 /* AppDelegate.h */,
+				AFE25FD3165D8E540098D745 /* AppDelegate.m */,
+				AFE25FDB165D8E540098D745 /* FraccionesBasicas.xcdatamodeld */,
+				AFE25FCA165D8E540098D745 /* Supporting Files */,
+			);
+			path = FraccionesBasicas;
+			sourceTree = "<group>";
+		};
+		AFE25FCA165D8E540098D745 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFE25FCB165D8E540098D745 /* FraccionesBasicas-Info.plist */,
+				AFE25FCC165D8E540098D745 /* InfoPlist.strings */,
+				AFE25FCF165D8E540098D745 /* main.m */,
+				AFE25FD1165D8E540098D745 /* FraccionesBasicas-Prefix.pch */,
+				AFE25FD5165D8E540098D745 /* Default.png */,
+				AFE25FD7165D8E540098D745 /* Default@2x.png */,
+				AFE25FD9165D8E540098D745 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFE25FEB165D8E550098D745 /* FraccionesBasicasTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFE25FF1165D8E550098D745 /* FraccionesBasicasTests.h */,
+				AFE25FF2165D8E550098D745 /* FraccionesBasicasTests.m */,
+				AFE25FEC165D8E550098D745 /* Supporting Files */,
+			);
+			path = FraccionesBasicasTests;
+			sourceTree = "<group>";
+		};
+		AFE25FEC165D8E550098D745 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFE25FED165D8E550098D745 /* FraccionesBasicasTests-Info.plist */,
+				AFE25FEE165D8E550098D745 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFE25FBC165D8E540098D745 /* FraccionesBasicas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE25FF6165D8E550098D745 /* Build configuration list for PBXNativeTarget "FraccionesBasicas" */;
+			buildPhases = (
+				AFE25FB9165D8E540098D745 /* Sources */,
+				AFE25FBA165D8E540098D745 /* Frameworks */,
+				AFE25FBB165D8E540098D745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FraccionesBasicas;
+			productName = FraccionesBasicas;
+			productReference = AFE25FBD165D8E540098D745 /* FraccionesBasicas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFE25FE2165D8E550098D745 /* FraccionesBasicasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE25FF9165D8E550098D745 /* Build configuration list for PBXNativeTarget "FraccionesBasicasTests" */;
+			buildPhases = (
+				AFE25FDE165D8E550098D745 /* Sources */,
+				AFE25FDF165D8E550098D745 /* Frameworks */,
+				AFE25FE0165D8E550098D745 /* Resources */,
+				AFE25FE1165D8E550098D745 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFE25FEA165D8E550098D745 /* PBXTargetDependency */,
+			);
+			name = FraccionesBasicasTests;
+			productName = FraccionesBasicasTests;
+			productReference = AFE25FE3165D8E550098D745 /* FraccionesBasicasTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFE25FB4165D8E540098D745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "IOS 5";
+			};
+			buildConfigurationList = AFE25FB7165D8E540098D745 /* Build configuration list for PBXProject "FraccionesBasicas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFE25FB2165D8E540098D745;
+			productRefGroup = AFE25FBE165D8E540098D745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFE25FBC165D8E540098D745 /* FraccionesBasicas */,
+				AFE25FE2165D8E550098D745 /* FraccionesBasicasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFE25FBB165D8E540098D745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE25FCE165D8E540098D745 /* InfoPlist.strings in Resources */,
+				AFE25FD6165D8E540098D745 /* Default.png in Resources */,
+				AFE25FD8165D8E540098D745 /* Default@2x.png in Resources */,
+				AFE25FDA165D8E540098D745 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE25FE0165D8E550098D745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE25FF0165D8E550098D745 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AFE25FE1165D8E550098D745 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFE25FB9165D8E540098D745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE25FD0165D8E540098D745 /* main.m in Sources */,
+				AFE25FD4165D8E540098D745 /* AppDelegate.m in Sources */,
+				AFE25FDD165D8E540098D745 /* FraccionesBasicas.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE25FDE165D8E550098D745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE25FF3165D8E550098D745 /* FraccionesBasicasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFE25FEA165D8E550098D745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFE25FBC165D8E540098D745 /* FraccionesBasicas */;
+			targetProxy = AFE25FE9165D8E550098D745 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFE25FCC165D8E540098D745 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE25FCD165D8E540098D745 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFE25FEE165D8E550098D745 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE25FEF165D8E550098D745 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFE25FF4165D8E550098D745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFE25FF5165D8E550098D745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFE25FF7165D8E550098D745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FraccionesBasicas/FraccionesBasicas-Prefix.pch";
+				INFOPLIST_FILE = "FraccionesBasicas/FraccionesBasicas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFE25FF8165D8E550098D745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FraccionesBasicas/FraccionesBasicas-Prefix.pch";
+				INFOPLIST_FILE = "FraccionesBasicas/FraccionesBasicas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AFE25FFA165D8E550098D745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FraccionesBasicas.app/FraccionesBasicas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FraccionesBasicas/FraccionesBasicas-Prefix.pch";
+				INFOPLIST_FILE = "FraccionesBasicasTests/FraccionesBasicasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AFE25FFB165D8E550098D745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FraccionesBasicas.app/FraccionesBasicas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FraccionesBasicas/FraccionesBasicas-Prefix.pch";
+				INFOPLIST_FILE = "FraccionesBasicasTests/FraccionesBasicasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFE25FB7165D8E540098D745 /* Build configuration list for PBXProject "FraccionesBasicas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE25FF4165D8E550098D745 /* Debug */,
+				AFE25FF5165D8E550098D745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE25FF6165D8E550098D745 /* Build configuration list for PBXNativeTarget "FraccionesBasicas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE25FF7165D8E550098D745 /* Debug */,
+				AFE25FF8165D8E550098D745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFE25FF9165D8E550098D745 /* Build configuration list for PBXNativeTarget "FraccionesBasicasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE25FFA165D8E550098D745 /* Debug */,
+				AFE25FFB165D8E550098D745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFE25FDB165D8E540098D745 /* FraccionesBasicas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFE25FDC165D8E540098D745 /* FraccionesBasicas.xcdatamodel */,
+			);
+			currentVersion = AFE25FDC165D8E540098D745 /* FraccionesBasicas.xcdatamodel */;
+			path = FraccionesBasicas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFE25FB4165D8E540098D745 /* Project object */;
+}
