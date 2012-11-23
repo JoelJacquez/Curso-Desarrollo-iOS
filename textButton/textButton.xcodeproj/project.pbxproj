@@ -447,6 +447,7 @@
 				AFB24FC3165DCBD9008D5299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFB24FC4165DCBD9008D5299 /* Build configuration list for PBXNativeTarget "textButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +456,7 @@
 				AFB24FC6165DCBD9008D5299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
